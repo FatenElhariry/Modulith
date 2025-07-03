@@ -1,0 +1,17 @@
+D:\Learning\EShopModulithic\Shared\EShop.Shared\bin\Debug\net9.0\EShop.Shared.deps.json
+D:\Learning\EShopModulithic\Shared\EShop.Shared\bin\Debug\net9.0\EShop.Shared.runtimeconfig.json
+D:\Learning\EShopModulithic\Shared\EShop.Shared\bin\Debug\net9.0\EShop.Shared.dll
+D:\Learning\EShopModulithic\Shared\EShop.Shared\bin\Debug\net9.0\EShop.Shared.pdb
+D:\Learning\EShopModulithic\Shared\EShop.Shared\bin\Debug\net9.0\Shared.Contract.dll
+D:\Learning\EShopModulithic\Shared\EShop.Shared\bin\Debug\net9.0\Shared.Contract.pdb
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.csproj.AssemblyReference.cache
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.AssemblyInfoInputs.cache
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.AssemblyInfo.cs
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.csproj.CoreCompileInputs.cache
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Sh.9E8CE157.Up2Date
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.dll
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\refint\EShop.Shared.dll
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.pdb
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\EShop.Shared.genruntimeconfig.cache
+D:\Learning\EShopModulithic\Shared\EShop.Shared\obj\Debug\net9.0\ref\EShop.Shared.dll

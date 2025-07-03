@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Faten@1234
+    ports:
+      - "1433:1433"
+    # volumes:
+    #   - mssql_data:/var/opt/mssql/data
+    restart: unless-stopped
+    # networks:
+    #   - keycloak-network
+
+  seq:
+    image: datalust/seq:latest
+    container_name: seq
+    environment: 
+      - ACCEPT_EULA=Y
+      - SEQ_PASSWORD=Admin
+      - SEQ_FIRSTRUN_ADMINUSERNAME=Admin
+    restart: always
+    ports:
+     - "5341:5341"
+     - "9091:80"
+  redis: 
+    container_name: "redis"    
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    restart: always
+  
+  messagebus:
+    image: rabbitmq:management  
+    container_name: messagebus
+    hostname: ecommerce-mq
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  
+  identity:
+    image: quay.io/keycloak/keycloak:24.0.3
+    container_name: identity
+    environment:
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin1234
+      - KC_DB=mssql
+      - db-url=jdbc:sqlserver://sqlserver:1433;databaseName=keycloak;encrypt=true;trustServerCertificate=true
+      - KC_DB_USERNAME=sa
+      - KC_DB_PASSWORD=Faten@1234
+      - KC_HOSTNAME=http://identity:9090/
+      - KC_HTTP_PORT=9090
+    restart: always
+    ports:
+      - "9090:9090"
+    command:
+      - start-dev
+    depends_on:
+     - sqlserver
+    # networks:
+    #   - keycloak-network
+
+networks:
+  keycloak-network:
+    driver: bridge 
+
+volumes:
+  mssql_data:
+    driver: local  

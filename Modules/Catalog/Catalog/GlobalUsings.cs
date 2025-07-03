@@ -1,0 +1,16 @@
+﻿global using Eshop.Catalog.Products.Models;
+global using EShop.Shared.DDD;
+global using Microsoft.EntityFrameworkCore;
+global using Eshop.Catalog.Data;
+global using EShop.ModuleBuilder.Application.DI;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Catalog.Contract.Products.Dtos;
+global using EShop.Shared.Contract.CQRS;
+global using Mapster;
+global using Eshop.Catalog.Products.Events;
+global using MediatR;
+global using Microsoft.Extensions.Logging;
+global using  Carter;
+global using Microsoft.AspNetCore.Routing;

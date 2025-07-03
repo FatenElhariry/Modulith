@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Eshop.Shared.Messaging\Eshop.Shared.Messaging.csproj" />
+    <ProjectReference Include="..\..\..\Shared\EShop.Shared\EShop.Shared.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Shared.Contract\Shared.Contract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Ordering\Features\CreateOrder\" />
+    <Folder Include="Ordering\Features\GetOrderByName\" />
+    <Folder Include="Ordering\Features\UpdateOrder\" />
+  </ItemGroup>
+
+</Project>
