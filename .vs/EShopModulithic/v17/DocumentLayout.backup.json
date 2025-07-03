@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Learning\\EShopModulithic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C2F33249-6287-47F1-8B5F-455AA6D41A85}|Modules\\Ordering\\Ordering\\EShop.Ordering.csproj|d:\\learning\\eshopmodulithic\\modules\\ordering\\ordering\\eshop.ordering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C2F33249-6287-47F1-8B5F-455AA6D41A85}|Modules\\Ordering\\Ordering\\EShop.Ordering.csproj|solutionrelative:modules\\ordering\\ordering\\eshop.ordering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5794845D-D274-44E6-A59E-CF114E9ECB77}|Modules\\Basket\\Basket\\EShop.Basket.csproj|d:\\learning\\eshopmodulithic\\modules\\basket\\basket\\eshop.basket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5794845D-D274-44E6-A59E-CF114E9ECB77}|Modules\\Basket\\Basket\\EShop.Basket.csproj|solutionrelative:modules\\basket\\basket\\eshop.basket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5794845D-D274-44E6-A59E-CF114E9ECB77}|Modules\\Basket\\Basket\\EShop.Basket.csproj|d:\\learning\\eshopmodulithic\\modules\\basket\\basket\\basket\\features\\checkoutbasket\\checkouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5794845D-D274-44E6-A59E-CF114E9ECB77}|Modules\\Basket\\Basket\\EShop.Basket.csproj|solutionrelative:modules\\basket\\basket\\basket\\features\\checkoutbasket\\checkouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EShop.Ordering",
+              "DocumentMoniker": "D:\\Learning\\EShopModulithic\\Modules\\Ordering\\Ordering\\EShop.Ordering.csproj",
+              "RelativeDocumentMoniker": "Modules\\Ordering\\Ordering\\EShop.Ordering.csproj",
+              "ToolTip": "D:\\Learning\\EShopModulithic\\Modules\\Ordering\\Ordering\\EShop.Ordering.csproj",
+              "RelativeToolTip": "Modules\\Ordering\\Ordering\\EShop.Ordering.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T10:41:25.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EShop.Basket",
+              "DocumentMoniker": "D:\\Learning\\EShopModulithic\\Modules\\Basket\\Basket\\EShop.Basket.csproj",
+              "RelativeDocumentMoniker": "Modules\\Basket\\Basket\\EShop.Basket.csproj",
+              "ToolTip": "D:\\Learning\\EShopModulithic\\Modules\\Basket\\Basket\\EShop.Basket.csproj",
+              "RelativeToolTip": "Modules\\Basket\\Basket\\EShop.Basket.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T10:41:20.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CheckoutHandler.cs",
               "DocumentMoniker": "D:\\Learning\\EShopModulithic\\Modules\\Basket\\Basket\\Basket\\Features\\CheckoutBasket\\CheckoutHandler.cs",
               "RelativeDocumentMoniker": "Modules\\Basket\\Basket\\Basket\\Features\\CheckoutBasket\\CheckoutHandler.cs",
